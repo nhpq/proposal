@@ -5,12 +5,11 @@
 ---
 
 ### 📄 Thông tin sinh viên  
-- **Họ và tên:** Nguyễn Hà Phú Quý 
-- **MSSV:** 2180601278  
-- **Email:** phuquy3816@gmail.com  
-- **Trường:** Đại học Công nghệ TP.HCM (HUTECH)  
-- **Ngày thực hiện:** 09/07/2025
-
+- **Họ và tên:** [Điền tên bạn]  
+- **MSSV:** [Mã số sinh viên]  
+- **Email:** [Email]  
+- **Trường:** [Tên trường bạn]  
+- **Ngày thực hiện:** [Ngày bắt đầu]
 
 ---
 
@@ -72,21 +71,25 @@
 
 ---
 
-💰 Budget Estimation
-Hạng mục	Chi phí (Free Tier)
-EC2 t2.micro	0 VNĐ (750h/tháng)
-ALB	~0.025 USD/h (test vài giờ)
-Data Transfer	Miễn phí trong nội bộ
-CloudWatch basic	Miễn phí
+### 💰 Budget Estimation  
+| Hạng mục         | Chi phí (Free Tier) |
+|------------------|---------------------|
+| EC2 t2.micro      | 0 VNĐ (750h/tháng) |
+| ALB               | ~0.025 USD/h (test vài giờ) |
+| Data Transfer     | Miễn phí trong nội bộ |
+| CloudWatch basic  | Miễn phí |
 
-Tổng chi phí thực tế khi test demo: ~10.000–30.000đ
+**Tổng chi phí thực tế khi test demo ~10.000–30.000đ**
 
-⚠️ Risk Assessment
-Rủi ro	Mức độ	Hướng xử lý
-Cấu hình sai ALB hoặc ASG	Trung bình	Kiểm tra log, rollback
-EC2 không phản hồi kịp	Thấp	Dùng AMI chuẩn, bật health check
-Quá giới hạn Free Tier	Thấp	Giới hạn thời gian test
-Scaling không đúng	Trung bình	Dùng CloudWatch log để debug
+---
+
+### ⚠️ Risk Assessment  
+| Rủi ro                         | Mức độ | Hướng xử lý |
+|-------------------------------|--------|--------------|
+| Cấu hình sai ALB hoặc ASG     | Trung bình | Kiểm tra log, rollback |
+| EC2 không phản hồi kịp        | Thấp | Dùng AMI chuẩn, health check |
+| Quá giới hạn Free Tier        | Thấp | Giới hạn thời gian test |
+| Scaling không diễn ra đúng    | Trung bình | Dùng CloudWatch log để debug |
 
 ---
 
