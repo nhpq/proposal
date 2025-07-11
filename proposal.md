@@ -5,11 +5,12 @@
 ---
 
 ### 📄 Thông tin sinh viên  
-- **Họ và tên:** [Điền tên bạn]  
-- **MSSV:** [Mã số sinh viên]  
-- **Email:** [Email]  
-- **Trường:** [Tên trường bạn]  
-- **Ngày thực hiện:** [Ngày bắt đầu]
+- **Họ và tên:** Nguyễn Hà Phú Quý 
+- **MSSV:** 2180601278  
+- **Email:** phuquy3816@gmail.com  
+- **Trường:** Đại học Công nghệ TP.HCM (HUTECH)  
+- **Ngày thực hiện:** 09/07/2025
+
 
 ---
 
