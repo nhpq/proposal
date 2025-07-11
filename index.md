@@ -1,3 +1,7 @@
+---
+layout: default
+title: Proposal
+---
 
 # 🎓 Proposal  
 ## Triển khai hệ thống Web High Availability sử dụng Auto Scaling và Load Balancer trên AWS  
