@@ -77,14 +77,16 @@ title: Proposal
 
 ### 💰 Budget Estimation  
 
-| Hạng mục            |    Chi phí (Free Tier)                  |
-|---------------------|--------------------------------------|
-| EC2 t2.micro        |    0 VNĐ (750h/tháng)                  |
-| ALB                 |    ~0.025 USD/h (test vài giờ)         |
-| Data Transfer       |    Miễn phí trong nội bộ               |
-| CloudWatch basic    |    Miễn phí                            |
+| Hạng mục                         | Chi phí ước tính (vận hành 1 tháng)          |
+|----------------------------------|---------------------------------------------|
+| **EC2 t2.micro**                 | Miễn phí nếu còn trong Free Tier (750h/tháng) |
+| **EC2 t3.micro** *(hết Free Tier)* | ~8 USD/tháng (~200.000đ)                  |
+| **Application Load Balancer (ALB)** | ~18–20 USD/tháng (~450.000đ)              |
+| **CloudWatch Logs & Alarms**     | ~1–2 USD/tháng (~25.000–50.000đ)           |
+| **Data Transfer (10GB outbound)**| ~0.90 USD (~20.000đ)                       |
 
-**Tổng chi phí thực tế khi test demo:** ~10.000–30.000đ
+**👉 Tổng chi phí ước tính nếu vận hành thực tế 1 tháng:**  
+**~700.000 – 800.000đ**
 
 ---
 
