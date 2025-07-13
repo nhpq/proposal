@@ -1,7 +1,4 @@
----
-layout: default
-title: Proposal
----
+
 # 🎓 Proposal  
 ## Tối ưu hóa tính sẵn sàng và hiệu suất hệ thống Web trên nền tảng AWS
 > **Giải pháp phân phối tải động, tự mở rộng và đảm bảo uptime cho hệ thống Web**
